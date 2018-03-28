@@ -130,6 +130,10 @@ namespace bitbot {
             return pins.digitalReadPin(DigitalPin.P5);
         }
     }
+    
+    export function ollysSecretFunction(): void {
+     
+    }
 
     /**
       * Read light sensor.
