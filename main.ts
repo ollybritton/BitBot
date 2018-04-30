@@ -131,8 +131,19 @@ namespace bitbot {
         }
     }
     
-    export function ollysSecretFunction(): void {
-     
+    /**
+      * My secret function.
+      *
+      * @param sensor Line sensor to read.
+      */
+    //% blockId="bitbot_read_line" block="read line sensor %sensor"
+    //% weight=90
+    export function ollysSecretFunction(sensor: BBLineSensor): number {
+        if (sensor == BBLineSensor.Left) {
+            return pins.digitalReadPin(DigitalPin.P11);
+        } else {
+            return pins.digitalReadPin(DigitalPin.P5);
+        }
     }
 
     /**
