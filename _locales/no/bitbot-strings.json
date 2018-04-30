@@ -10,6 +10,7 @@
   "bitbot.motor|block": "kjør motor %motor|hastighet %speed",
   "bitbot.buzz|block": "buzz lyd %flag",
   "bitbot.readLine|block": "les linje-sensor %sensor",
+  "bitbot.ollysSecretFunction|block": "les linje-sensor %sensor",
   "bitbot.readLight|block": "les lys-sensor %sensor",
   "bitbot.neoSetColor|block": "sett lysdioder til %rgb=neopixel_colors",
   "bitbot.neoSetPixelColor|block": "sett lysdiode %offset|farge %rgb=neopixel_colors",
