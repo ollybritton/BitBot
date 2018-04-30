@@ -136,7 +136,7 @@ namespace bitbot {
       *
       * @param sensor Line sensor to read.
       */
-    //% blockId="bitbot_read_line" block="read line sensor %sensor"
+    //% blockId="bitbot_read_line" block="olly's secret function %sensor"
     //% weight=90
     export function ollysSecretFunction(sensor: BBLineSensor): number {
         if (sensor == BBLineSensor.Left) {
